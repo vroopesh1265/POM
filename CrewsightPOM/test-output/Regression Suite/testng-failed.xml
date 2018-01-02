@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="TC003_VerifyLoginWithDiffrentRecords(failed)">
+    <classes>
+      <class name="com.crewsight.automation.homePage.TC002_ForgotPassword">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.crewsight.automation.homePage.TC002_ForgotPassword -->
+      <class name="com.crewsight.automation.homePage.TC003_VerifyLoginWithDiffrentRecords">
+        <methods>
+          <include name="verifyLoginWithDiffrentRecords" invocation-numbers="4"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.crewsight.automation.homePage.TC003_VerifyLoginWithDiffrentRecords -->
+      <class name="com.crewsight.automation.homePage.TC001_VerifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="endtest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.crewsight.automation.homePage.TC001_VerifyLoginWithInvalidCredentials -->
+    </classes>
+  </test> <!-- TC003_VerifyLoginWithDiffrentRecords(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

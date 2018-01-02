@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test name="TC001_VerifyLoginWithInvalidCredentials">
+    <classes>
+      <class name="com.crewsight.automation.homePage.TC001_VerifyLoginWithInvalidCredentials"/>
+     </classes>
+  </test> <!-- Test -->
+  <test name="TC002_ForgotPassword">
+    <classes>
+      <class name="com.crewsight.automation.homePage.TC002_ForgotPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TC003_VerifyLoginWithDiffrentRecords">
+    <classes>
+      <class name="com.crewsight.automation.homePage.TC003_VerifyLoginWithDiffrentRecords"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
